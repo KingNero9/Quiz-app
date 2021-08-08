@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&display=swap');
+
+body { /*i dont even know if it does anything*/
+    margin: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+
+.container-fluid {
+    background: #E6A4B4;
+    padding-bottom:5px;
+    padding-top: 22px;
+    position: fixed;
+}
+
+#searchPlace {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-top:14px;
+}
+
+#navbarSupportedContent {
+    margin-top:5px;
+}
+
+#myname:hover{
+    color:rgb(78, 47, 97)
+}
+
+#aboutme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#aboutme:hover{
+    color:rgb(114, 92, 128);
+}
+
+#contactme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#contactme:hover{
+    color:rgb(114, 92, 128)
+}
+
+#myprojects {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#myprojects:hover{
+    color:rgb(114, 92, 128)
+}
+
+.itemDrop:hover {
+    background: #F3D7CA;
+}
+
+#disabledNav {
+    font-size: 18px;
+    color: rgb(142, 129, 153);
+    margin-top: 15px;
+}
+
+#searchBtn {
+    background:#e7879f;
+    margin-top:5px;
+}
+
+#searchBtn:hover {
+    background:rgb(238, 143, 176);
+    margin-top:5px;
+    border-color:#C86B85;
+}
+
+#imgLinkedin {
+    margin-top: 2.8rem;
+    margin-right: 0.8rem;
+    float: right;
+}
+
+#imgGithub {
+    margin-top: 2.8rem;
+    margin-right: 0.8rem;
+    float: right;
+}
+
+#myNameHeader {
+    text-align: center;
+    margin-top: 35vh !important;
+    margin-left: -2vw;
+    color: white;
+    font-family: "Dancing Script", serif;
+    font-size: 8vh;
+    margin-bottom: 0px;
+}
+
+#secondaryHeader {
+    text-align: center;
+    color:white;
+    margin-top: 0vw;
+    font-family: "Handlee" , serif;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: "Handlee" , serif;
+}
+
+h3 > a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40vh;
+    color: black;
+}
